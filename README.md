@@ -58,7 +58,7 @@ Image Captioning Project
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/harshit433/Image-Captioning-Cantilever-.git
+   git clone https://github.com/Kunalverse/Image-Captioning-Cantilever-.git
    cd Image Captioning Project
    ```
 
