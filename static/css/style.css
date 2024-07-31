@@ -1,19 +1,28 @@
 body{
     margin: 0;
-    background-color: #020617;
+    background-color: #083344;
     overflow-x: hidden;
 }
 
 .header{
-    background-color: #334155;
+    background-color:#06b6d4;
     padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .product-name{
-    color: #64748b;
+    color: #0f172a;
     font-style: italic;
     font-weight: bolder;
     font-size: xx-large;
+    text-align: center;
+}
+
+.header-img{
+    width: 36px;
+    margin-left: 10px;
 }
 
 .product-name-inner{
@@ -34,9 +43,10 @@ body{
     display: flex;
     /* justify-content: space-around; */
     align-items: center;
+    
 }
 form>h2{
-    color: #fff;
+    color: #a5f3fc;
 }
 
 .parent-upload-container{
@@ -47,7 +57,7 @@ form>h2{
 }
 .upload-image {
     cursor: pointer;
-    width: 30px;
+    width: 100px;
     height: auto;
 }
 .upload-image:hover{
@@ -57,7 +67,7 @@ form>h2{
     margin-top: 2rem;
     width: 20rem;
     height: 3rem;
-    background-color: #64748b;
+    background-color: #22d3ee;
     outline: none;
     border: none;
     border-radius: 0.4rem;
@@ -67,12 +77,12 @@ form>h2{
 }
 
 .upload-btn:hover{
-    background-color: #475569;
+    background-color: #0891b2;
     transform: scale(1.1);
 }
 
 .upload-container{
-    border: 0.5rem dashed #64748b;
+    border: 0.3rem dashed #67e8f9;
     width: 20rem;
     height: 8rem;
     display: flex;
